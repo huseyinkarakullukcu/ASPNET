@@ -1,3 +1,4 @@
+using CourseApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CourseApp.Controllers
@@ -6,13 +7,21 @@ namespace CourseApp.Controllers
     {
         public IActionResult Index()
         {
-            
-            return View();
+            var model = Repository.Applications;
+            return View(model);
         }
         public IActionResult Apply()
         {
 
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Apply([FromForm] Candidate model)
+        {
+            Repository.Add(model);
+            return View("Feedback", model);
         }
     }
     
