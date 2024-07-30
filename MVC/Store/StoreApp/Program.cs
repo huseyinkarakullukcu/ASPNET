@@ -12,6 +12,9 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
 
 var app = builder.Build();
 
+//wwwroot static klasörünü kullanabilmek içib
+app.UseStaticFiles();
+
 //app.MapGet("/", () => "Hello World!");
 
 app.UseHttpsRedirection();

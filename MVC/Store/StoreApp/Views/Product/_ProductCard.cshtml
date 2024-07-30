@@ -1,0 +1,11 @@
+@model StoreApp.Models.Product
+
+<div>
+    <h2>@Model.ProductName</h2>
+    <p>@Model.Price.ToString("c")</p>
+    <a class="btn btn-primary" asp-action="Get" asp-route-id="@Model.ProductId">
+    <i class="fa-solid fa-arrow-right"></i>
+        Get Details
+    </a>
+</div>
+<hr>
