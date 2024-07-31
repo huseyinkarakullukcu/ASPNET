@@ -1,9 +1,7 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Entities.Models;
-namespace StoreApp.Models
-{
 
-    //veri tabanı gibi işlem görecek
+namespace Repositories{
     public class RepositoryContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
@@ -26,5 +24,4 @@ namespace StoreApp.Models
             );
         }
     }
-    
 }
