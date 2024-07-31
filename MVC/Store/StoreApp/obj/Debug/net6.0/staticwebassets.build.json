@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jcKsh8zj0Tb4P9boPOctZlEzreqXTZ2n830HleTHmws=",
+  "Hash": "3IFVdwlvhasR4NguSG6p+Rd5mMx92lNDQJSEiIQPE4Q=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\html\\Error.cshtml"
+    },
+    {
+      "Identity": "C:\\Users\\hk\\Desktop\\ASPNET\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hk\\Desktop\\ASPNET\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/default.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.jpg"
     },
     {
       "Identity": "C:\\Users\\hk\\Desktop\\ASPNET\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",

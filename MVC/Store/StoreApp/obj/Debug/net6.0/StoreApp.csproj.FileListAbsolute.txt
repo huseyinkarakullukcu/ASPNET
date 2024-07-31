@@ -56,3 +56,5 @@ C:\Users\hk\Desktop\ASPNET\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.A
 C:\Users\hk\Desktop\ASPNET\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
 C:\Users\hk\Desktop\ASPNET\MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
 C:\Users\hk\Desktop\ASPNET\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
+C:\Users\hk\Desktop\ASPNET\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+C:\Users\hk\Desktop\ASPNET\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
