@@ -64,6 +64,9 @@ namespace BlogApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("UserName")
                         .HasColumnType("TEXT");
 
@@ -79,6 +82,9 @@ namespace BlogApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Content")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Image")
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("IsActive")

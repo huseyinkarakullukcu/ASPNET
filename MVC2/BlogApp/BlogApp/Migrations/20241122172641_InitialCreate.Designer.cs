@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogApp.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20241121145854_InitialCreate")]
+    [Migration("20241122172641_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -67,6 +67,9 @@ namespace BlogApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("UserName")
                         .HasColumnType("TEXT");
 
@@ -82,6 +85,9 @@ namespace BlogApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Content")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Image")
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("IsActive")
