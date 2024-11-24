@@ -21,11 +21,34 @@ builder.Services.AddDbContext<BlogContext>(options =>{
 
 //Sanalı çağırdığımızda bize gerçeğini gönderecek.
 builder.Services.AddScoped<IPostRepository, EfPostRepository>();
+builder.Services.AddScoped<ITagRepository, EfTagRepository>();
 
 var app = builder.Build();
 
+app.UseStaticFiles(); //dosyalara erişimi açma wwwroot
+
 SeedData.TestVerileriniDoldur(app);
 
-app.MapDefaultControllerRoute(); //controller view id
+// app.MapDefaultControllerRoute(); //controller view id
+
+//localhost://posts/react-dersleri
+//localhost://posts/php-dersleri
+
+app.MapControllerRoute(
+    name:"post_details",
+    pattern : "posts/details/{url}",
+    defaults: new {controller="Posts", action="Details"}
+);
+//localhost://posts/tag/php
+app.MapControllerRoute(
+    name:"posts_by_tag",
+    pattern : "posts/tag/{tag}",
+    defaults: new {controller="Posts", action="Index"}
+);
+
+app.MapControllerRoute(
+    name:"default",
+    pattern : "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();

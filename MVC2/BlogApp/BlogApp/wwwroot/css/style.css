@@ -1,0 +1,10 @@
+body{
+    background-color: #eff2f5;
+}
+a{
+    text-decoration: none;
+}
+.avatar{
+    width: 3rem;
+    height: 3rem;
+}

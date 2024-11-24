@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogApp.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20241122172641_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241124114259_UpdateColumnTagColor")]
+    partial class UpdateColumnTagColor
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,7 +53,13 @@ namespace BlogApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("Color")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Text")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Url")
                         .HasColumnType("TEXT");
 
                     b.HasKey("TagId");
@@ -97,6 +103,9 @@ namespace BlogApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Url")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("UserId")
