@@ -1,5 +1,7 @@
+using System.Security.Claims;
 using BlogApp.Data.Abstract;
 using BlogApp.Data.Concrete.EfCore;
+using BlogApp.Entity;
 using BlogApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,14 +17,17 @@ namespace BlogApp.Controllers
         // }
         private IPostRepository _postRepository;
         private ITagRepository _tagRepository;
+        private ICommentRepository _commentRepository;
 
-        public PostsController(IPostRepository postRepository, ITagRepository tagRepository)
+        public PostsController(IPostRepository postRepository, ITagRepository tagRepository, ICommentRepository commentRepository)
         {
             _postRepository = postRepository;
             _tagRepository = tagRepository;
+            _commentRepository = commentRepository;
         }
         public async Task<IActionResult> Index(string tag)
         {
+            var claims = User.Claims;
             var posts = _postRepository.Posts; //tolist dersek veritabınından alır gelir
             if(!string.IsNullOrEmpty(tag)){
                 posts = posts.Where(x=>x.Tags.Any(t=>t.Url == tag));
@@ -47,10 +52,30 @@ namespace BlogApp.Controllers
                                 .FirstOrDefaultAsync(p=>p.Url == url));
         }
 
-        public IActionResult AddComment(int PostId, string UserName, string Text)
+        
+        // public IActionResult AddComment(int PostId, string UserName, string Text, string Url)
+        [HttpPost]
+        public JsonResult AddComment(int PostId, string Text)
         {
-
-            return View();
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var username = User.FindFirstValue(ClaimTypes.Name);
+            var avatar = User.FindFirstValue(ClaimTypes.UserData);
+            var entity = new Comment{
+                CommentText = Text,
+                PublishedOn = DateTime.Now,
+                PostId = PostId,
+                UserId = int.Parse(userId ?? "")
+                //User = new User{UserName = UserName, Image = "profile.png"}
+            };
+            _commentRepository.CreateComment(entity);
+            // return Redirect("/posts/details/"+Url);
+            // return RedirectToRoute("post_details", new {url = Url});
+            return Json(new {
+                username, 
+                Text,
+                entity.PublishedOn,
+                avatar
+            });
         }
     }
 }

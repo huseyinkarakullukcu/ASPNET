@@ -1,6 +1,7 @@
 using BlogApp.Data.Abstract;
 using BlogApp.Data.Concrete;
 using BlogApp.Data.Concrete.EfCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,10 +23,20 @@ builder.Services.AddDbContext<BlogContext>(options =>{
 //Sanalı çağırdığımızda bize gerçeğini gönderecek.
 builder.Services.AddScoped<IPostRepository, EfPostRepository>();
 builder.Services.AddScoped<ITagRepository, EfTagRepository>();
+builder.Services.AddScoped<ICommentRepository, EfCommentRepository>();
+builder.Services.AddScoped<IUserRepository, EfUserRepository>();
+
+//kullanıcı işlemleri için
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
 var app = builder.Build();
 
 app.UseStaticFiles(); //dosyalara erişimi açma wwwroot
+
+//Kullanıcı işlemleri için
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
 
 SeedData.TestVerileriniDoldur(app);
 

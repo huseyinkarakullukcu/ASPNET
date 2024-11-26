@@ -25,9 +25,9 @@ namespace BlogApp.Data.Concrete.EfCore
 
                 if(!context.Users.Any()){
                     context.Users.AddRange(
-                        new User{UserName = "sadikturan", Image="boy.png"},
-                        new User{UserName = "huseyin", Image="man.png"},
-                        new User{UserName = "ahmet", Image="profile.png"}
+                        new User{UserName = "hakandemir", Name = "Hakan Demir", Email = "hakan@hakan.com", Password="123456", Image="boy.png"},
+                        new User{UserName = "huseyin", Name = "Hüseyin Karakullukcu", Email = "huseyin@huseyin.com", Password="123456", Image="man.png"},
+                        new User{UserName = "ahmet", Name = "Ahmet Yılmaz", Email = "ahmet@ahmet.com", Password="123456", Image="profile.png"}
                     );
                     context.SaveChanges();
                 }
@@ -45,8 +45,8 @@ namespace BlogApp.Data.Concrete.EfCore
                             UserId = 1,
                             Comments = new List<Comment>
                             {
-                                new Comment{CommentText = "İyi bir kurs", PublishedOn= new DateTime(), UserId = 1},
-                                new Comment{CommentText = "Çok faydalı bir kurs", PublishedOn= new DateTime(), UserId = 2}
+                                new Comment{CommentText = "İyi bir kurs", PublishedOn= DateTime.Now.AddDays(-20), UserId = 1},
+                                new Comment{CommentText = "Çok faydalı bir kurs", PublishedOn= DateTime.Now.AddDays(-30), UserId = 2}
                             }
                         },
                         new Post{
