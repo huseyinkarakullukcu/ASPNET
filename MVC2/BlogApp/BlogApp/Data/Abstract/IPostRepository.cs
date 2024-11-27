@@ -7,5 +7,7 @@ namespace BlogApp.Data.Abstract
         IQueryable<Post> Posts {get;} //veritabanında filtreli olarak getirir. Hepsini getirmez.
 
         void CreatePost(Post post);
+        void EditPost(Post post);
+        void EditPost(Post post, int[] tagIds);
     }
 }

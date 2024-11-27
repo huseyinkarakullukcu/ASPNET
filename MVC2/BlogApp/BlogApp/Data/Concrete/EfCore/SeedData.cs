@@ -36,6 +36,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     context.AddRange(
                         new Post{
                             Title = "AspNet Core",
+                            Description = "AspNet Core dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
                             Content = "AspNet Core dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
                             Url="aspnet-core",
                             IsActive = true,
@@ -51,6 +52,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post{
                             Title = "Php",
+                            Description = "Php dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
                             Content = "Php dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
                             IsActive = true,
                             Url = "php",
@@ -61,6 +63,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post{
                             Title = "Django",
+                            Description = "Django dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
                             Content = "Django dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
                             Url = "django",
                             IsActive = true,
@@ -71,6 +74,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post{
                             Title = "React",
+                            Description = "React dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
                             Content = "React dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
                             Url = "react",
                             IsActive = true,
@@ -81,6 +85,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post{
                             Title = "Angular",
+                            Description = "Angular dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
                             Content = "Angular dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
                             Url = "angular",
                             IsActive = true,
@@ -91,6 +96,7 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post{
                             Title = "Web Tasarım",
+                            Description = "Web Tasarım dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
                             Content = "Web tasarım dersleri, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
                             Url = "web-tasarim",
                             IsActive = true,
