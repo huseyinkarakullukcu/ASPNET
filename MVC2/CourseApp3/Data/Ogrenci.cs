@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace CaourseApp3.Data
+namespace CourseApp3.Data
 {
     public class Ogrenci
     {

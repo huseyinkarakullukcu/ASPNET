@@ -1,4 +1,4 @@
-using CaourseApp3.Data;
+using CourseApp3.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace CourseApp3.Data

@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Öğrenci Ekle";
+}
+@model Ogrenci
+
+<div class="card m-auto">
+    <div class="card-header">
+        <h5>Öğrenci Ekle</h5>
+    </div>
+    <div class="card-body bg-white">
+        <form asp-asp-controller="Ogrenci" asp-action="Create" method="post">
+            <div class="mb-3">
+                <label asp-for="OgrenciAd" class="form-label">Öğrenci Ad</label>
+                <input type="text" asp-for="OgrenciAd" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="OgrenciSoyad" class="form-label">Öğrenci Soyad</label>
+                <input type="text" asp-for="OgrenciSoyad" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input type="text" asp-for="Email" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Telefon" class="form-label">Telefon</label>
+                <input type="text" asp-for="Telefon" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </form>
+    </div>
+</div>
