@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Kurs Güncelle";
+}
+@model Kurs
+
+<div class="card m-auto">
+    <div class="card-header">
+        <h5>Kurs Güncelle</h5>
+    </div>
+    <div class="card-body bg-white">
+        <form asp-asp-controller="Kurs" asp-action="Edit" method="post">
+            <input type="hidden" name="KursId" value="@Model.KursId">
+            <div class="mb-3">
+                <label asp-for="KursBaslik" class="form-label">Kurs Adı</label>
+                <input type="text" asp-for="KursBaslik" class="form-control">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </form>
+    </div>
+</div>
