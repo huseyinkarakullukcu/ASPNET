@@ -1,10 +1,17 @@
-﻿<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="utf-8" />
-    <title>Başlık</title>
-</head>
-<body>
-    Home / Index
-</body>
-</html>
+﻿@section header{
+    @await Html.PartialAsync("_header")
+}
+<h1>Anasayfa</h1>
+<div id="filmler">
+    <div class="film">
+        <p>Film Başlığı</p>
+        <p>Film Açıklaması</p>
+        <p>Film Yönetmeni</p>
+        <p>
+            <ul>
+                <li>Oyuncu 1</li>
+                <li>Oyuncu 2</li>
+            </ul>
+        </p>
+    </div>
+</div>

@@ -1,10 +1,7 @@
-﻿<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="utf-8" />
-    <title>Başlık</title>
-</head>
-<body>
+﻿<p>
     Home / About
-</body>
-</html>
+</p>
+
+@section menu{ 
+@await Html.PartialAsync("_menu")
+}
