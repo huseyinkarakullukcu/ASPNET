@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Movie>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Başlık</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Film Listesi</h1>
+    <hr />
+    <div id="filmler">
+            @foreach (var m in Model)
+            {
+        <div class="film">
+                <img src="/img/@m.ImageUrl" width="200"/>
+                <h4>@m.Title</h4>
+                <p>@m.Description</p>
+                <p>@m.Director</p>
+                <p>
+                    <ul>
+                        @foreach(var player in m.Players)
+                        {
+                            <li>@player</li>
+                        }
+                        
+                       
+                    </ul>
+                </p>
+            
+        </div>
+                }
+
+    </div>
+    
+</body>
+</html>

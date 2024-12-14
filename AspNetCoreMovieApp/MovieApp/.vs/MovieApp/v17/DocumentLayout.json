@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\views\\movies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\views\\movies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|c:\\users\\hk\\desktop\\aspnet\\aspnetcoremovieapp\\movieapp\\movieapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E43CFA46-CCC4-4D8C-8828-BEF0A1F2E551}|MovieApp\\MovieApp.Web.csproj|solutionrelative:movieapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieApp\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T14:37:06.074Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "MovieApp\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "MovieApp\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T17:52:24.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Program.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Program.cs",
+              "RelativeToolTip": "MovieApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T17:49:06.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T17:36:46.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieApp\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T17:23:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T14:59:15.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Movies\\List.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Movies\\List.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Movies\\List.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Movies\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T14:58:53.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T14:57:54.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T14:57:14.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\AspNetCoreMovieApp\\MovieApp\\MovieApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T14:53:33.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
