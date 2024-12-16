@@ -1,31 +1,15 @@
-﻿@model IEnumerable<Movie>
+﻿@model MovieApp.Web.Models.MovieGenreViewModel
 
 <h1>Film Listesi</h1>
 <hr />
 <div id="filmler">
-    @foreach (var m in Model)
+    @foreach (var m in Model.Movies)
     {
-        <div class="film">
-            <img src="/img/@m.ImageUrl" width="200" />
-            <h4>@m.Title</h4>
-            <p>@m.Description</p>
-            <p>@m.Director</p>
-            <p>
-                <ul>
-                    @foreach (var player in m.Players)
-                    {
-                        <li>@player</li>
-                    }
-
-
-                </ul>
-            </p>
-
-        </div>
+        @await Html.PartialAsync("_movie", m)
     }
 
 </div>
 
-@section menu{ 
-    @await Html.PartialAsync("_menu")
+@section menu{
+    @await Html.PartialAsync("_menu", Model.Genres)
 }
