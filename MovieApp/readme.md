@@ -1,0 +1,7 @@
+- Asp .net core 8 mvc kullanılarak geliştirildi.
+- Tasarımda bootstrapo v5.3 kullanıldı.
+- Filmler ve türleri bulunakta
+- Crud işlemleri ve türe göre listeleme işlemleri yapıldı.
+- Veriler static eklendi
+- Repository kullanıldı
+- View Component ile türler sol menüye çekildi.
