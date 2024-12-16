@@ -1,0 +1,9 @@
+﻿@model List<Genre>
+<ul class="list-group">
+    <li class="list-group-item active" aria-current="true">Anasayfa</li>
+    @foreach(var genre in Model)
+     {
+        <li class="list-group-item">@genre.Name</li>
+     }
+</ul>
+

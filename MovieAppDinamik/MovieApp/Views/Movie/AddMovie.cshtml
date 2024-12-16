@@ -1,0 +1,36 @@
+﻿@model Movie
+<h1>Create Movie</h1>
+<form asp-controller="Movie" asp-action="AddMovie" method="post" class="form-control mt-3">
+    <div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="@Model.Title"></label>
+        <input asp-for="@Model.Title" class="form-control" />
+        <span class="text-danger"  asp-validation-for="Title"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea rows="3" asp-for="@Model.Description" class="form-control"></textarea>
+        <span  asp-validation-for="Description"></span>
+    </div>
+
+    <div class="form-group my-2">
+        <label for="GenreId">Genre</label>
+        <select asp-for="@Model.GenreId" class="form-select" asp-items="@ViewBag.Genre">
+            <option selected disabled>Select</option>
+        </select>
+        <span class="text-danger"  asp-validation-for="GenreId"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Director">Director</label>
+        <input asp-for="@Model.Director" class="form-control" />
+        
+    </div>
+    <div class="form-group">
+        <label for="Image">Poster</label>
+        <input asp-for="@Model.Image" class="form-control" />
+        <span class="text-danger" asp-validation-for="Image"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model HomePageViewModel
+@section main_header{ 
+
+@await Html.PartialAsync("_main_header")
+}
+
+<div class="container py-5">
+    <h2>Film Listesi</h2>
+    @foreach(var movie in Model.PopulerMovies)
+      {
+         @await Html.PartialAsync("_movie", movie)
+      }
+</div>

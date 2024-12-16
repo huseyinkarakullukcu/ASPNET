@@ -1,0 +1,9 @@
+﻿
+<p>
+    Home / About
+</p>
+@section menu
+{
+    @*@await Html.PartialAsync("_menu", Model)*@
+    @await Component.InvokeAsync("Genres")
+}
