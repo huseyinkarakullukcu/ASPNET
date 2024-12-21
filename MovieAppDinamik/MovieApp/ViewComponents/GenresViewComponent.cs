@@ -6,6 +6,11 @@ namespace MovieApp.ViewComponents
 {
     public class GenresViewComponent:ViewComponent
     {
+        private readonly MovieContext _context;
+        public GenresViewComponent(MovieContext context)
+        {
+            _context = context;
+        }
         public IViewComponentResult Invoke()
         {
             //var turListesi = new List<Genre>()
@@ -17,7 +22,8 @@ namespace MovieApp.ViewComponents
             //};
             ViewBag.SelectedGenreId = RouteData.Values["id"];
 
-            return View(GenreRepository.GetGenres);
+            //return View(GenreRepository.GetGenres);
+            return View(_context.Genres.ToList());
         }
     }
 }

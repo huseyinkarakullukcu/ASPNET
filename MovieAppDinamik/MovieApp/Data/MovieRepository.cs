@@ -3,6 +3,7 @@ using static System.Net.Mime.MediaTypeNames;
 using System.IO;
 using System.Reflection;
 using Microsoft.AspNetCore.Http.HttpResults;
+using MovieApp.Entity;
 
 namespace MovieApp.Data
 {
@@ -20,7 +21,6 @@ namespace MovieApp.Data
                     GenreId= 1,
                     Director= "James Cameron",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
-                    Players= ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver", "Stephen Lang"]
                 },
                 new Movie {
                     Id=2,
@@ -29,7 +29,6 @@ namespace MovieApp.Data
                     GenreId= 2,
                     Director= "Francis Lawrence",
                     Image= "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA0MTI2NjMzMzFeQTJeQWpwZ15BbWU2MDMwNDc3OA@@._V1_.jpg",
-                    Players= ["Will Smith", "Alice Braga", "Charlie Tahan", "Salli Richardson-Whitfield"]
                 },
                 new Movie {
                     Id=3,
@@ -38,7 +37,6 @@ namespace MovieApp.Data
                     GenreId= 4,
                     Director= "Zack Snyder",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMjAzNTkzNjcxNl5BMl5BanBnXkFtZTYwNDA4NjE3._V1_SX300.jpg",
-                    Players= ["Gerard Butler", "Lena Headey", "Dominic West", "David Wenham"]
                 },
                 new Movie {
                     Id=4,
@@ -47,7 +45,6 @@ namespace MovieApp.Data
                     GenreId= 4,
                     Director= "Joss Whedon",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SX300.jpg",
-                    Players= ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"]
                 },
                 new Movie {
                     Id=5,
@@ -56,7 +53,6 @@ namespace MovieApp.Data
                     GenreId= 1,
                     Director= "James Cameron",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
-                    Players= ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver", "Stephen Lang"]
                 },
                 new Movie {
                     Id=6,
@@ -65,7 +61,6 @@ namespace MovieApp.Data
                     GenreId= 5,
                     Director= "Martin Scorsese",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg",
-                    Players= ["Ellen Burstyn", "Matthew McConaughey", "Mackenzie Foy", "John Lithgow"]
                 },
                 new Movie {
                     Id=7,
@@ -74,7 +69,6 @@ namespace MovieApp.Data
                     GenreId= 1,
                     Director= "Christopher Nolan",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg",
-                    Players= ["Peter Dinklage", "Lena Headey", "Emilia Clarke", "Kit Harington"]
                 },
                 new Movie {
                     Id=8,
@@ -83,7 +77,6 @@ namespace MovieApp.Data
                     GenreId= 2,
                     Director= "Michael Hirst",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMjM5OTQ1MTY5Nl5BMl5BanBnXkFtZTgwMjM3NzMxODE@._V1_SX300.jpg",
-                    Players= ["Travis Fimmel", "Clive Standen", "Gustaf Skarsgård", "Katheryn Winnick"]
                 },
                 new Movie {
                     Id=9,
@@ -92,7 +85,6 @@ namespace MovieApp.Data
                     GenreId= 2,
                     Director= "N/A",
                     Image= "https://ia.media-imdb.com/images/M/MV5BOTEzNzI3MDc0N15BMl5BanBnXkFtZTgwMzk1MzA5NzE@._V1_SX300.jpg",
-                    Players= ["Omari Hardwick", "Joseph Sikora", "Andy Bean", "Lela Loren"]
                 },
                 new Movie {
                     Id=10,
@@ -101,7 +93,6 @@ namespace MovieApp.Data
                     GenreId= 4,
                     Director= "N/A",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTY2MjMwNDE4OV5BMl5BanBnXkFtZTgwNjI1NjU0OTE@._V1_SX300.jpg",
-                    Players= ["Wagner Moura", "Boyd Holbrook", "Pedro Pascal", "Joanna Christie"]
                 },
                 new Movie {
                     Id=11,
@@ -110,7 +101,6 @@ namespace MovieApp.Data
                     GenreId= 5,
                     Director= "Courtney Kemp Agboh",
                     Image= "https://ia.media-imdb.com/images/M/MV5BOTA4NTkzMjUzOF5BMl5BanBnXkFtZTgwNzg5ODkxOTE@._V1_SX300.jpg",
-                    Players= ["Omari Hardwick", "Joseph Sikora", "Andy Bean", "Lela Loren"]
                 },
                 new Movie {
                     Id=12,
@@ -119,7 +109,6 @@ namespace MovieApp.Data
                     GenreId= 1,
                     Director= "James Cameron",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
-                    Players= ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver", "Stephen Lang"]
                 },
                 new Movie {
                     Id=13,
@@ -128,7 +117,6 @@ namespace MovieApp.Data
                     GenreId= 5,
                     Director= "Carlo Bernard, Chris Brancato, Doug Miro, Paul Eckstein",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTU0ODQ4NDg2OF5BMl5BanBnXkFtZTgwNzczNTE4OTE@._V1_SX300.jpg",
-                    Players= ["Wagner Moura", "Boyd Holbrook", "Pedro Pascal", "Joanna Christie"]
                 },
                 new Movie {
                     Id=14,
@@ -137,7 +125,6 @@ namespace MovieApp.Data
                     GenreId= 5,
                     Director= "Scott Derrickson",
                     Image= "https://ia.media-imdb.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
-                    Players= ["Rachel McAdams", "Benedict Cumberbatch", "Mads Mikkelsen", "Tilda Swinton"]
                 },
                 new Movie {
                     Id=15,
@@ -146,7 +133,6 @@ namespace MovieApp.Data
                     GenreId= 6,
                     Director= "Gareth Edwards",
                     Image= "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQyMzI2OTA3OF5BMl5BanBnXkFtZTgwNDg5NjQ0OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
-                    Players= ["Felicity Jones", "Riz Ahmed", "Mads Mikkelsen", "Ben Mendelsohn"]
                 },
                 new Movie {
                     Id=16,
@@ -155,7 +141,6 @@ namespace MovieApp.Data
                     GenreId= 2,
                     Director= "Justin Kurzel",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTU2MTQwMjU1OF5BMl5BanBnXkFtZTgwMDA5NjU5ODE@._V1_SX300.jpg",
-                    Players= ["Michael Fassbender", "Michael Kenneth Williams", "Marion Cotillard", "Jeremy Irons"]
                 },
                 new Movie {
                     Id=17,
@@ -164,7 +149,6 @@ namespace MovieApp.Data
                     GenreId= 6,
                     Director= "Cheo Hodari Coker",
                     Image= "https://ia.media-imdb.com/images/M/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_SX300.jpg",
-                    Players= ["Mahershala Ali", "Mike Colter", "Frankie Faison", "Erik LaRay Harvey"]
                 },
             };
         }
@@ -175,7 +159,6 @@ namespace MovieApp.Data
         public static void AddMovie(Movie movie)
         {
             movie.Id = _movies.Count() + 1;
-            movie.Players = ["Oyuncu 1", "Oyuncu 2"];
             _movies.Add(movie);
         }
 
@@ -194,7 +177,6 @@ namespace MovieApp.Data
                     movie.Description = model.Description;
                     movie.Director = model.Director;
                     movie.Image = model.Image;
-                    movie.Players = model.Players;
                     movie.GenreId = model.GenreId;
                     break;
                 }
