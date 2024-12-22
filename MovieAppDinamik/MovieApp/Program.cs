@@ -7,9 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MovieContext>(options =>
 {
+    
     var config = builder.Configuration;
-    var connectionString = config.GetConnectionString("DefaultConnection");
-    options.UseSqlite(connectionString);
+    var connectionString = config.GetConnectionString("SqlServerConnection");
+    //options.UseSqlite(connectionString);
+    options.UseSqlServer(connectionString);
 });
 
 var app = builder.Build();
@@ -19,6 +21,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+DataSeeding.Seed(app);
 app.UseStaticFiles();
 
 app.UseRouting();

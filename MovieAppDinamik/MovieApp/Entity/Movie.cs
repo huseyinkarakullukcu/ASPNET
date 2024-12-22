@@ -10,9 +10,9 @@ namespace MovieApp.Entity
         public string Title { get; set; }
         [MaxLength(500)]
         public string Description { get; set; }
-        public string Director { get; set; }
         public string Image { get; set; }
         [Required]
+        public Genre Genre { get; set; } //navgation property
         public int GenreId { get; set; }
     }
 }
