@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\views\\home\\kayitsecme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\views\\home\\kayitsecme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|c:\\users\\hk\\desktop\\aspnet\\linqtest\\linqtest\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7995924-AE72-4A32-B154-6EC9B046A8FC}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "LINQTest\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Models\\ProductModel.cs",
+              "RelativeToolTip": "LINQTest\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:49:13.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LINQTest\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LINQTest\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T08:41:55.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KayitSecme.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Home\\KayitSecme.cshtml",
+              "RelativeDocumentMoniker": "LINQTest\\Views\\Home\\KayitSecme.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Home\\KayitSecme.cshtml",
+              "RelativeToolTip": "LINQTest\\Views\\Home\\KayitSecme.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwDYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T08:38:34.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Home\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "LINQTest\\Views\\Home\\ProductList.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Home\\ProductList.cshtml",
+              "RelativeToolTip": "LINQTest\\Views\\Home\\ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T19:49:44.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LINQTest\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LINQTest\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T19:43:48.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Data\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "LINQTest\\Data\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Data\\NorthwindContext.cs",
+              "RelativeToolTip": "LINQTest\\Data\\NorthwindContext.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA4wEgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:42:21.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "LINQTest\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Data\\Product.cs",
+              "RelativeToolTip": "LINQTest\\Data\\Product.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:41:59.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LINQTest\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\LINQTest\\LINQTest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LINQTest\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAswK8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:39:15.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

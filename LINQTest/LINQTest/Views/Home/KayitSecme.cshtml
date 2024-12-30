@@ -1,0 +1,60 @@
+﻿<style>
+    .card{
+        height:200px !important;
+        overflow:scroll
+    }
+</style>
+<div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Ürün Adları</h5>
+            </div>
+            <div class="card-body">
+                @foreach (var item in ViewBag.Name)
+                {
+                    <span>@item -</span>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Ürün Ad ve Fiyatları</h5>
+            </div>
+            <div class="card-body">
+                @foreach (var item in ViewBag.NamePrice)
+                {
+                    <span>@item.ProductName & @item.UnitPrice - </span>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Almanyada Yaşayanların Adları</h5>
+            </div>
+            <div class="card-body">
+                @foreach (var item in ViewBag.Almanya)
+                {
+                    <span>@item.ContactName  - </span>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Stokta Olmayan Ürünler</h5>
+            </div>
+            <div class="card-body">
+                @foreach (var item in ViewBag.productInventoryEmpty)
+                {
+                    <span>@item  - </span>
+                }
+            </div>
+        </div>
+    </div>
+</div>

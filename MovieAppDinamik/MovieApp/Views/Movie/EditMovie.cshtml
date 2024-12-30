@@ -13,21 +13,17 @@
     <div class="form-group my-2">
         <label for="Description">Description</label>
         <textarea rows="3" asp-for="@Model.Description" class="form-control"></textarea>
-    </div>
-
-    <div class="form-group my-2">
-        <label for="GenreId">Genre</label>
-        <select asp-for="@Model.GenreId" class="form-select" asp-items="@ViewBag.Genre">
-            <option selected disabled>Select</option>
-            @*<option value="1">Macera</option>
-            <option value="2">Komedi</option>
-            <option value="3">Korku</option>
-            <option value="4">Drama</option>
-            <option value="5">Suç</option>
-            <option value="6">Aksiyon</option>*@
-        </select>
         <span class="text-danger" asp-validation-for="Description"></span>
     </div>
+
+    <!--<div class="form-group my-2">
+        <label for="GenreId">Genre</label>
+        <select asp-for="@@Model.GenreId" class="form-select" asp-items="@@ViewBag.Genre">
+            <option selected disabled>Select</option>-->
+            
+        <!--</select>-->
+        
+    @*</div>*@
 
    
     <div class="form-group my-2">

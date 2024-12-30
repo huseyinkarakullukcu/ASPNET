@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Product>
+<ul class="list-group">
+    <li class="list-group-item active" aria-current="true">Ürün Listesi</li>
+    @foreach (var item in Model)
+    {
+
+        <li class="list-group-item">@item.ProductName</li>
+    }
+    
+</ul>

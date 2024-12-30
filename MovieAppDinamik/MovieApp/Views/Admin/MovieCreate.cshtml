@@ -1,0 +1,43 @@
+﻿@model AdminCreateMovieViewModel
+<h1>Create Movie</h1>
+<form asp-controller="Admin" asp-action="MovieCreate" method="post" class="form-control mt-3">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="text-danger" asp-validation-summary="All"></div>
+            <div class="mb-3">
+                <label asp-for="@Model.Title"></label>
+                <input asp-for="@Model.Title" class="form-control" />
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Description">Description</label>
+                <textarea rows="3" asp-for="@Model.Description" class="form-control"></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+        <div class="col-md-4">
+            @foreach (var item in (List<Genre>)ViewBag.Genres)
+            {
+                <div class="form-check">
+                    <input class="form-check-input" name="GenreIds" type="checkbox" value="@item.GenreId" id="genre_@(item.GenreId)"
+                      @(Model.GenreIds != null && Model.GenreIds.Any(i=> i == item.GenreId) ? "checked":"")      
+                     >
+                    <label class="form-check-label" for="genre_@(item.GenreId)">
+                        @item.Name
+                    </label>
+                </div>
+            }
+            <span class="text-danger" asp-validation-for="GenreIds"></span>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <script src="https://cdn.ckeditor.com/4.25.0-lts/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Description');
+    </script>
+}

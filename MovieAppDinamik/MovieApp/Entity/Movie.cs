@@ -4,6 +4,10 @@ namespace MovieApp.Entity
 {
     public class Movie
     {
+        public Movie()
+        {
+            Genres = new List<Genre>();
+        }
         [Key]
         public int Id { get; set; }
         [Required]
@@ -11,8 +15,8 @@ namespace MovieApp.Entity
         [MaxLength(500)]
         public string Description { get; set; }
         public string Image { get; set; }
-        [Required]
-        public Genre Genre { get; set; } //navgation property
-        public int GenreId { get; set; }
+
+        public List<Genre> Genres { get; set; } 
+
     }
 }

@@ -14,19 +14,26 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="about">About</a>
                     </li>
-                   
 
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Movie" asp-action="list">Movie</a>
+                    </li>
+
+
+                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Movie
+                            Admin
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/Movie/Index">Movie</a></li>
-                            <li><a class="dropdown-item" href="/Movie/List">Movie List</a></li>
+                            <li><a class="dropdown-item" href="/Admin/movielist">Movie</a></li>
+                            <li><a class="dropdown-item" href="/Admin/genrelist">Genre</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="/Movie/AddMovie">Add Movie</a></li>
+                            <li><a class="dropdown-item" href="/Admin/MovieCreate">Add Movie</a></li>
+                            <li><a class="dropdown-item" href="/Admin/AddMovie">Add Genre</a></li>
                         </ul>
                     </li>
+
                 </ul>
                 <form action="/movie/list" class="d-flex" role="search" method="get">
                     <input class="form-control me-2" type="search" name="q" placeholder="Find Movie" aria-label="Search">
