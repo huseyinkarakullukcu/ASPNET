@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "EGCGVOp0s80=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hk\\Desktop\\ASPNET\\PrductAPI\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hk\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\hk\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\hk\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.2.0\\swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512",
+    "C:\\Users\\hk\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.2.0\\swashbuckle.aspnetcore.swaggergen.7.2.0.nupkg.sha512",
+    "C:\\Users\\hk\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.2.0\\swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

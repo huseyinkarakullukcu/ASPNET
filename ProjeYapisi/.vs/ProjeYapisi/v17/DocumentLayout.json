@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|c:\\users\\hk\\desktop\\aspnet\\projeyapisi\\projeyapisi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|solutionrelative:projeyapisi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|c:\\users\\hk\\desktop\\aspnet\\projeyapisi\\projeyapisi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|solutionrelative:projeyapisi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|c:\\users\\hk\\desktop\\aspnet\\projeyapisi\\projeyapisi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|solutionrelative:projeyapisi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|c:\\users\\hk\\desktop\\aspnet\\projeyapisi\\projeyapisi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|solutionrelative:projeyapisi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|c:\\users\\hk\\desktop\\aspnet\\projeyapisi\\projeyapisi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10F9039B-B279-4E24-AC0E-EF14F77B09CA}|ProjeYapisi\\ProjeYapisi.csproj|solutionrelative:projeyapisi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProjeYapisi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Models\\Product.cs",
+              "RelativeToolTip": "ProjeYapisi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:42:47.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjeYapisi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjeYapisi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T20:37:03.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProjeYapisi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProjeYapisi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:26:46.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjeYapisi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjeYapisi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:24:14.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Program.cs",
+              "RelativeDocumentMoniker": "ProjeYapisi\\Program.cs",
+              "ToolTip": "C:\\Users\\hk\\Desktop\\ASPNET\\ProjeYapisi\\ProjeYapisi\\Program.cs",
+              "RelativeToolTip": "ProjeYapisi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T19:54:16.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
