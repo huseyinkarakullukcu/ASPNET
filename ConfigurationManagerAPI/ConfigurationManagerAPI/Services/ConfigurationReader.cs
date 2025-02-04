@@ -1,11 +1,13 @@
 ﻿using ConfigurationManagerAPI.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 namespace ConfigurationManagerAPI.Services
 {
     public class ConfigurationReader
     {
         private readonly ConfigurationDbContext _dbContext;
         private readonly string _applicationName;
+        
 
         public ConfigurationReader(ConfigurationDbContext dbContext, string applicationName)
         {

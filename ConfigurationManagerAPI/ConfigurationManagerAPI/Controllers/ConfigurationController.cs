@@ -3,6 +3,7 @@ using ConfigurationManagerAPI.Models;
 using ConfigurationManagerAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace ConfigurationManagerAPI.Controllers
 {
@@ -54,13 +55,14 @@ namespace ConfigurationManagerAPI.Controllers
             return Ok(existing);
         }
 
-        [HttpGet("dynamic-value/{key}")]
-        public async Task<IActionResult> GetDynamicValue(string key)
+        [HttpGet("dynamic-value/{appName}/{key}")]
+        public async Task<IActionResult> GetDynamicValue(string appName, string key)
         {
-            var configurationReader = new ConfigurationReader(_dbContext, "SERVICE-A");
+            var configurationReader = new ConfigurationReader(_dbContext, appName);
             var value = await configurationReader.GetValueAsync<string>(key);
 
             if (value == null) return NotFound("Key not found or inactive.");
+            
             return Ok(value);
         }
     }
